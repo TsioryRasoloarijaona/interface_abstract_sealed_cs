@@ -14,4 +14,6 @@ public abstract class Etudiant : IEtudiant
     }
     public abstract void etudier();
     public abstract void passerExamen();
+
+    public abstract void afficherDetails();
 }

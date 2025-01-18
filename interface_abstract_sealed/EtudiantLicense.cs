@@ -18,4 +18,9 @@ public class EtudiantLicense : Etudiant
     {
         Console.WriteLine(nom + " passe ses examens de license");
     }
+
+    public override void afficherDetails()
+    {
+        Console.WriteLine("nom : " +nom +"\n"+"age : "+ age +"\n"+"credit obtenu : " + creditObtenus);
+    }
 }

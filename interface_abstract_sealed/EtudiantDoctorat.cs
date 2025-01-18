@@ -18,4 +18,9 @@ public sealed class EtudiantDoctorat : Etudiant
     {
         Console.WriteLine(nom + " passe une soutenance de these");
     }
+
+    public override void afficherDetails()
+    {
+        Console.WriteLine("nom : " +nom +"\n"+"age : "+ age +"\n"+"these de doctorat : " + theseDoctorat);
+    }
 }

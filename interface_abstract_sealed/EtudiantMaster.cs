@@ -11,11 +11,16 @@ public class EtudiantMaster : Etudiant
 
     public override void etudier()
     {
-        Console.WriteLine(nom + " etudie pour sont memoire sur le sujet " + memoireSujet);
+        Console.WriteLine(nom + " etudie sur sa memoire sur le sujet " + memoireSujet);
     }
 
     public override void passerExamen()
     {
         Console.WriteLine(nom + " passe un examen de master");
+    }
+
+    public override void afficherDetails()
+    {
+        Console.WriteLine("nom : " +nom +"\n"+"age : "+ age +"\n"+"memoire : " + memoireSujet);
     }
 }
